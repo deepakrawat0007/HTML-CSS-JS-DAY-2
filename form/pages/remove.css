@@ -1,0 +1,43 @@
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 5%;
+}
+.wrapper{
+    width: 20vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 15px;
+}
+.wrapper h1 {
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+.wrapper p{
+    width: 200px;
+    margin: 0;
+margin-left: 20px;
+font-size: 20px;
+}
+.back-sub{
+    width: 200px;
+    height: 6vh;
+    color: white;
+    background-color: maroon;
+    border: 0;
+    outline-style: none;
+    border-radius: 10px;
+}
+.confirm-sub{
+    height: 6vh;
+    outline-style: none;
+    border: 0;
+    border-radius: 10px;
+    width: 200px;
+}

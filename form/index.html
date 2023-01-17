@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" />
+    <title>form</title>
+</head>
+<body>
+    <div class="form-wrapper">
+        <h1>Payment</h1>
+        <p>Complete your Pro Membership</p>
+        <div class="container">
+        <div class="amount">
+            <h2 id="gray-col" class="dollar">$</h2><h2 class="dollar">899</h2><h3 id="gray-col">USD</h3>
+        </div>
+        <div class="diff-comps">
+           
+            <input type="checkbox" id="msg" name="msg" value="yes" checked >
+            <label for="msg" class="lbl-1">Messaging</label>
+            <input type="checkbox" id="analytics" name="analytics" value="yes" checked>
+            <label for="analytics" class="lbl-3">Analytics</label>
+            <input type="checkbox" id="support" name="support" value="yes" checked>
+            <label for="support" class="lbl-2">Support</label>
+            <input type="checkbox" id="discount" name="discount" value="yes" checked>
+            <label for="discount">Discounts</label>
+
+            <label class="diff-col">Know More</label>
+        </div>
+    </div>
+    <h3 class="utility">Pay With Card</h3>
+    <form method="get" action="#">
+        <input type="number" class="card-no" placeholder="1234 5678 9874 2536" />
+        <div class="divs">
+        <input type="text" placeholder="MM / YYYY" />
+        <input type="number" placeholder="CVV" />
+    </div>
+    </form>
+    <a target="_blank" href="/form/pages/remove.html">
+        <button  class="submit">Make Payment</button>
+    </a>
+</div>
+    
+</body>
+<script src="./script.js"></script>
+</html>

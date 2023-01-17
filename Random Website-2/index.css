@@ -1,0 +1,155 @@
+body {
+    margin-left: 5%;
+}
+
+.navbar,
+.navbar>div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar>h3 {
+    margin-top: 25px;
+    margin-right: 50vw;
+}
+
+.rest>h4,
+.rest>button {
+    color: gray;
+    padding: 15px;
+}
+
+.rest>button {
+    width: 7vw;
+    height: 5vh;
+    border-radius: 15px;
+    border: 1px solid gray;
+    margin-top: 25px;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.head>h1 {
+    font-size: 55px;
+    color: rgb(31, 58, 109);
+    margin: 0;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+.head>p {
+    color: rgb(31, 58, 109);
+    margin-left: 35%;
+    width: 100vw;
+}
+
+.heading {
+    display: flex;
+}
+
+.heading>div {
+    padding: 5px;
+    padding-right: 6%;
+}
+
+.head>button {
+    height: 6vh;
+    width: 8vw;
+    border: 0;
+    border-radius: 25px;
+    background-color: aquamarine;
+    color: rgb(31, 58, 109);
+    margin-bottom: 3%;
+}
+
+.cards-wrapper {
+    display: flex;
+
+}
+
+.cards-wrapper>div {
+
+    width: 30vw;
+    height: 50vh;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 5%;
+}
+
+.c-5 {
+
+    background-color: violet;
+
+    left: 58%;
+    z-index: 3;
+
+}
+
+div>img {
+    width: 30vw;
+    height: 50vh;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+.c-1 {
+
+
+    z-index: 0;
+
+}
+
+.c-2 {
+    background-color: blue;
+
+    left: 18%;
+    z-index: 1;
+}
+
+.c-3 {
+    background-color: aquamarine;
+
+    left: 30%;
+    z-index: 2;
+}
+
+.c-4 {
+    background-color: chartreuse;
+
+    left: 44%;
+    z-index: 3;
+
+}
+
+.cards-wrapper>div:hover {
+    z-index: 6;
+    transform: scale(1.1);
+}
+
+.headin-1 {
+    margin-left: 9%;
+    margin-bottom: 5px;
+    color: lightpink;
+}
+
+.headin-2 {
+    color: chartreuse;
+}
+
+.headin-3 {
+    color: cadetblue;
+}
+
+.headin-4 {
+    color: darkcyan;
+}
+
+.headin-5 {
+    color: greenyellow;
+}
